@@ -66,7 +66,6 @@ function setStartBtn() {}
 
 function setResetBtn() {}
 
-// Start/Stop Button
 btnLeftElement.addEventListener('click', () => {
   btnLeftElement.classList.toggle('stop');
   btnRightElement.classList.toggle('split');
